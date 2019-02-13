@@ -1,4 +1,5 @@
 module.exports = {
-  mongoURI: "mongodb://admin:cowboy45@ds121262.mlab.com:21262/dev-connector",
-  secretKey: "secret"
+  mongoURI:
+    'mongodb://jmechristian:cowboy45@ds133865.mlab.com:33865/dev-connect',
+  secretKey: 'secret'
 };

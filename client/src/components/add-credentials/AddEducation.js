@@ -125,7 +125,7 @@ class AddEducation extends Component {
                     id="current"
                   />
                   <label htmlFor="current" className="form-check-label">
-                    Current Job
+                    Current School
                   </label>
                 </div>
                 <TextAreaFieldGroup
@@ -161,6 +161,7 @@ const mapStateToProps = state => ({
   errors: state.errors
 });
 
-export default connect(mapStateToProps, { addEducation })(
-  withRouter(AddEducation)
-);
+export default connect(
+  mapStateToProps,
+  { addEducation }
+)(withRouter(AddEducation));
